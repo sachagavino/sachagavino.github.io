@@ -1,36 +1,22 @@
 {
-  "name": "John_Doe",
-  "version": "1.5.0",
-  "description": "An elegant responsive bootstrap 4.x theme.",
-  "main": "gulpfile.js",
-  "author": "DevCRUD",
+  "name": "sachagavino-website",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "gulp"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "motion": "^12.40.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.167.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.2",
-    "imagemin-jpeg-recompress": "^6.0.0",
-    "imagemin-pngquant": "^7.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "ie >= 8",
-    "edge >= 15",
-    "ie_mob >= 10",
-    "ff >= 45",
-    "chrome >= 45",
-    "safari >= 7",
-    "opera >= 23",
-    "ios >= 7",
-    "android >= 4"
-  ]
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.2.0"
+  }
 }

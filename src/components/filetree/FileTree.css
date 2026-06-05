@@ -1,0 +1,102 @@
+.filetree {
+  padding: 0.75rem 0.5rem;
+  font-family: 'Inter', monospace;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.65);
+  user-select: none;
+}
+
+.filetree-header {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 0 0.5rem 0.75rem;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 0.5rem;
+}
+
+.tree-node {
+  position: relative;
+}
+
+.tree-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.tree-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tree-row--selected {
+  background: rgba(22, 159, 160, 0.15);
+  color: #169fa0;
+}
+
+.tree-row--selected:hover {
+  background: rgba(22, 159, 160, 0.2);
+  color: #169fa0;
+}
+
+.tree-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+.tree-icon--folder {
+  color: #e3965b;
+  opacity: 0.9;
+}
+
+.tree-chevron {
+  width: 0.8rem;
+  height: 0.8rem;
+  flex-shrink: 0;
+  opacity: 0.4;
+  transition: transform 0.2s ease;
+}
+
+.tree-chevron--open {
+  transform: rotate(90deg);
+}
+
+.tree-spacer {
+  width: 0.8rem;
+  flex-shrink: 0;
+}
+
+.tree-name {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tree-children {
+  position: relative;
+  padding-left: 1.1rem;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.25s ease;
+}
+
+.tree-children--open {
+  max-height: 500px;
+}
+
+.tree-connector {
+  position: absolute;
+  left: 0.55rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.08);
+}

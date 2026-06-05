@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'barlet';
+  src: url('/fonts/Barlet.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'barlet-o';
+  src: url('/fonts/Barlet-Outlined.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'vcr';
+  src: url('/fonts/vcr_osd_mono.ttf') format('truetype');
+  font-weight: 500;
+}

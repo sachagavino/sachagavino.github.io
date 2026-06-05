@@ -1,0 +1,171 @@
+.app {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 240px;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ── Main content ── */
+.content {
+  position: relative;
+  z-index: 1;
+  margin-left: 240px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 3rem 4rem;
+}
+
+/* ── Hero ── */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.site-title {
+  font-family: 'vcr', sans-serif;
+  font-size: 4rem;
+}
+
+.site-title-lastname {
+  color: #d9f3f3;
+}
+
+.site-title-encrypted {
+  color: #169fa0;
+  opacity: 0.5;
+}
+
+.site-title-firstname {
+  color: #efefef;
+}
+
+.site-subtitle {
+  font-family: 'vcr', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+/* ── File content panel ── */
+.file-panel {
+  width: 100%;
+  max-width: 680px;
+  margin-top: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(10px);
+  text-align: left;
+}
+
+.file-panel-header {
+  padding: 0.5rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  font-family: 'vcr', monospace;
+  font-size: 0.75rem;
+  color: #169fa0;
+  letter-spacing: 0.04em;
+}
+
+.file-panel-body {
+  padding: 1.5rem 1.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.file-panel-body h3 {
+  font-family: 'vcr', monospace;
+  font-size: 0.85rem;
+  color: #e3965b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.file-panel-body h3:first-child {
+  margin-top: 0;
+}
+
+.file-panel-body p + p {
+  margin-top: 0.85rem;
+}
+
+.file-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  color: #169fa0;
+  font-family: 'vcr', monospace;
+  font-size: 0.8rem;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.file-link:hover {
+  color: #d9f3f3;
+}
+
+.file-contact {
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.file-contact span {
+  color: #e3965b;
+  font-family: 'vcr', monospace;
+  font-size: 0.75rem;
+}
+
+.file-tag {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: 'vcr', monospace;
+  font-size: 0.75rem;
+  color: #e3965b;
+  opacity: 0.7;
+}
+
+.cv-entry {
+  margin-bottom: 0.85rem;
+}
+
+.cv-date {
+  display: block;
+  font-family: 'Inter', monospace;
+  font-size: 0.75rem;
+  color: #169fa0;
+  margin-bottom: 0.2rem;
+}
+
+.cv-label {
+  font-family: 'vcr', monospace;
+  font-size: 0.75rem;
+  color: #e3965b;
+  margin-right: 0.5rem;
+}
