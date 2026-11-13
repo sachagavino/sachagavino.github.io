@@ -19,13 +19,13 @@ export const fileTreeData = [
 export const fileContents = {
   'README.md': () => (
     <>
-      <p>Welcome to my personal webpage. I am a postdoctoral researcher working at the Department of Physics and Astrophysics, University of Bologna.</p>
-      <p>My work mainly focuses on star and planet formation. I develop thermochemical models of protoplanetary disks to characterize the interaction between dust particles and the radiation field in a polydispersed environment, and to understand the impact of dust temperature and evolution on the material delivered to planetary cores.</p>
-      <p>I use radiotelescopes to directly probe stellar formation regions and protoplanetary disks. I am also interested in orbital dynamics.</p>
+      <p>Welcome to my personal webpage. I am a postdoctoral fellow working at the Centre for Planetary Habitability (PHAB), University of Oslo.</p>
+      <p>My work mainly focuses on star and planet formation. I develop thermochemical models of protoplanetary disks with the goal to characterize the interaction between the dust particles, the radiation field, and the chemistry to better understand planet formation processes.</p>
+      <p>Sometimes I use radiotelescopes to directly probe stellar formation regions and protoplanetary disks. I am also interested in orbital dynamics, in particular the role of mean-motion three-body resonances in compact planetary systems.</p>
       <p>In my spare time, I read about the history of science, do 3D modeling, and I play the piano when my neighbors are away.</p>
       <p className="file-contact">
-        <span>Email:</span> sacha.gavino [at] unibo.it<br />
-        <span>Address:</span> viale Berti Pichat 6/2, 40127 Bologna, Italy
+        <span>Email:</span> sacha.gavino [at] geo.uio.no<br />
+        <span>Address:</span> Sem Sælands vei 2 A,  0371,  Oslo, Norway
       </p>
     </>
   ),
@@ -64,7 +64,11 @@ export const fileContents = {
     <>
       <h3>Research</h3>
       <div className="cv-entry">
-        <span className="cv-date">2024 – Present</span>
+        <span className="cv-date">2026 – Present</span>
+        <p>Postdoctoral Fellow, Centre for Planetary Habitability (PHAB), University of Oslo.</p>
+      </div>
+      <div className="cv-entry">
+        <span className="cv-date">2024 – 2026</span>
         <p>Postdoctoral Research Fellow, Department of Physics and Astrophysics, University of Bologna.</p>
       </div>
       <div className="cv-entry">
