@@ -55,8 +55,8 @@ export default function App() {
               encryptedClassName="site-title-encrypted"
             />
           </h1>
-          <p className="site-subtitle">Postdoctoral Research Fellow in astrophysics</p>
-          <p className="site-subtitle">Department of Physics and Astrophysics, University of Bologna</p>
+          <p className="site-subtitle">Postdoctoral Fellow in astrophysics</p>
+          <p className="site-subtitle">Centre for Planetary Habitability (PHAB), University of Oslo</p>
         </section>
 
         {FileContent && (
