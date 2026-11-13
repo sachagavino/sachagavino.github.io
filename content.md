@@ -3,13 +3,13 @@
 ## Header
 
 **Name:** Sacha Gavino  
-**Title:** Postdoctoral Research Fellow in astrophysics | Department of Physics and Astrophysics, University of Bologna
+**Title:** Postdoctoral Fellow in astrophysics | Centre for Planetary Habitability, University of Oslo
 
 ---
 
 ## About Me
 
-Welcome to my personal webpage. I am a postdoctoral researcher working at the Department of Physics and Astrophysics, University of Bologna. My work mainly focuses on star and planet formation. I develop thermochemical models of protoplanetary disks with the goal to characterize the interaction between the dust particles and the radiation field in a polydispersed environment and to understand the impact of the dust temperature and evolution on the material delivered to planetary cores. I use radiotelescopes to directly probe stellar formation regions and protoplanetary disks. I am also interested in orbital dynamics. In my spare time, I read about the history of science, do 3D modeling, and I play the piano when my neighbors are away.
+Welcome to my personal webpage. I am a postdoctoral researcher working at the Centre for Planetary Habitability, University of Oslo. My work mainly focuses on star and planet formation. I develop thermochemical models of protoplanetary disks with the goal to characterize the interaction between the dust particles, the radiation field, and the chemistry to better understand planet formation processes. Sometimes I use radiotelescopes to directly probe stellar formation regions and protoplanetary disks. I am also interested in orbital dynamics, in particular the role of mean-motion three-body resonances in compact plantary systems. In my spare time, I read about the history of science, do 3D modeling, and I play the piano when my neighbors are away.
 
 **CV:** [Download My CV](https://drive.google.com/file/d/1b7Gs6Ji2hqjrS2bu90KQAyCuJwKl8c7Y/view?usp=drive_link)
 
@@ -23,8 +23,8 @@ Welcome to my personal webpage. I am a postdoctoral researcher working at the De
 
 ## Contact
 
-**Email:** sacha.gavino_at_unibo.it (replace "_at_" by the "@" symbol)  
-**Address:** viale Berti Pichat 6/2 - 40127 - Bologna - Italy
+**Email:** sacha.gavino_at_geo.uio.no (replace "_at_" by the "@" symbol)  
+**Address:** Sem Sælands vei 2 A,  0371,  Oslo, Norway
 
 **Social:**
 - [YouTube](https://www.youtube.com/channel/UCA-xERUAdw2KiskKoTKBwvg)
